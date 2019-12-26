@@ -1,0 +1,54 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{format}
+\usepackage{preamble}
+
+%-------------------------------------------------------------------------------
+%                Personal information
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+% \photo[rectangle,edge,right]{profile}
+\name{George}{Sun}
+\position{PhD, Biological Engineering}
+\address{New Lab, 19 Morris Ave, Brooklyn, NY, 02141}
+
+\mobile{(310)985-5901}
+\email{ge0rge.sun10@gmail.com}
+\homepage{www.mrsunny.tech}
+\github{mrsunny0}
+\linkedin{george-lele-sun}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \extrainfo{extra informations}
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[C]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {George L. Sun}
+  {\thepage}
+
+%-------------------------------------------------------------------------------
+%                Resume content
+%-------------------------------------------------------------------------------
+\input{components/education.tex}
+\input{components/work-experience.tex}
+\input{components/research-experience.tex}
+\input{components/publications.tex}
+\input{components/patents.tex}
+\input{components/honors.tex}
+\input{components/skills.tex}
+
+%-------------------------------------------------------------------------------
+\end{document}
