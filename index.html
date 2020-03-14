@@ -3,11 +3,40 @@
   <head>
     <meta charset="utf-8">
     <title>George Sun Resume</title>
+    <style type="text/css">
+        html {
+            overflow: auto;
+        }
+
+        html,
+        body,
+        div,
+        iframe {
+            margin: 0px;
+            padding: 0px;
+            height: 100%;
+            border: none;
+        }
+
+        iframe {
+            display: block;
+            width: 100%;
+            border: none;
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+    </style>
   </head>
   <body>
-    <a href="https://mrsunny0.github.io/resume-cv/resume/resume.pdf">
-      Link to resume
-    </a>
-    <iframe src="https://mrsunny0.github.io/resume-cv/resume/resume.pdf" width="100%" height=100vh></iframe>
+    <!-- <a href="https://mrsunny0.github.io/resume-cv/resume/resume.pdf">Link to resume</a> -->
+    <!-- How to full screen iframe: https://www.geeksforgeeks.org/how-to-set-fullscreen-iframe/ -->
+    <iframe src="https://mrsunny0.github.io/resume-cv/resume/resume.pdf"
+      frameborder="0"
+      marginheight="0"
+      marginwidth="0"
+      width="100%"
+      height="100%"
+      scrolling="auto">
+    </iframe>
   </body>
 </html>
