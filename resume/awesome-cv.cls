@@ -126,7 +126,7 @@
 \definecolor{awesome-nephritis}{HTML}{27AE60}
 \definecolor{awesome-concrete}{HTML}{95A5A6}
 \definecolor{awesome-darknight}{HTML}{131A28}
-\colorlet{awesome}{awesome-emerald}
+% \colorlet{awesome}{awesome-emerald} % let preamble control this color
 
 % Boolean value to switch section color highlighting
 \newbool{acvSectionColorHighlight}
