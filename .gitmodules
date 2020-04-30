@@ -1,6 +1,0 @@
-[submodule "_example/Awesome-CV"]
-	path = _example/Awesome-CV
-	url = https://github.com/posquit0/Awesome-CV
-[submodule "_example/CV_Resources"]
-	path = _example/CV_Resources
-	url = https://github.com/MIT-BECL/CV_Resources
